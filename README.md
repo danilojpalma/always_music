@@ -36,9 +36,11 @@ Ejecuta el siguiente comando, reemplazando <accion> con la acción que deseas re
 
 #### Acciones disponibles:
 
+Para evitar errores procura usar comillas simples ``''`` para ``<nombre> <rut> <curso>``
+
 1. Accion: ``nuevo`` 
 Agrega un nuevo estudiante a la base de datos.
-Argumentos: ``<nombre>, <rut>, <curso>, <nivel>``
+Argumentos: ``<nombre> <rut> <curso> <nivel>``
 
 Ejemplo: 
 ``node index.js nuevo 'Alain Johannes' '15.426.365-K' 'Guitarra' 20``
