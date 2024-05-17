@@ -6,7 +6,7 @@ const { Client } = pg;
 const config = {
     host: 'localhost',
     user: 'postgres',
-    password: 'sdtpovKER', // cambiar por su contraseña
+    password: 'root', // cambiar por su contraseña
     database: 'always_music', // cambiar por su base de datos
     port: 5432,
 
